@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HMS</title>
+  <link rel="stylesheet" href="hms.css">
+</head>
+<body>
+  <div class="container">
+
+
+    <!-- Forms for different tabs -->
+    <div id="ambulance" class="tabcontent">
+      <h1>Ambulance Form</h1>
+      <form id="ambulanceForm">
+        <input type="number" id="ambulanceID" placeholder="Ambulance ID" required>
+        <input type="text" id="licenseno" placeholder="License Plate No" required>
+        <input type="text" id="model" placeholder="Model Name" required>
+        <input type="text" id="available" placeholder="Availbility" required>
+
+        <button type="submit">Add Ambulance</button>
+      </form>
+    </div>
+
+    <!-- Add other tab content divs here -->
+
+  </div>
+
+  <script src="hms.js"></script>
+</body>
+</html>

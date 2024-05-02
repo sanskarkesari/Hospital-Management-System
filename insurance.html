@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HMS</title>
+  <link rel="stylesheet" href="hms.css">
+</head>
+<body>
+  <div class="container">
+
+
+    <!-- Forms for different tabs -->
+    <div id="insurance" class="tabcontent">
+      <h1>Insurance </h1>
+      <form id="insuranceForm" action="/submit_form" method="POST">
+        <input type="number" id="policyID" placeholder="Policy No" required>
+        <input type="text" id="insurance_company" placeholder="Insurance Company Name" required>
+        <input type="text" id="patient_name" placeholder="Patient Name" required>
+        <input type="number" id="coverageamount" placeholder="Coverage Amount" required>
+        
+        <button type="submit">Add Insurance</button>
+      </form>
+      <p id="generatedPolicyID"></p>
+    </div>
+
+    <!-- Add other tab content divs here -->
+
+  </div>
+
+  <script src="hms.js"></script>
+</body>
+</html>

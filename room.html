@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HMS</title>
+  <link rel="stylesheet" href="hms.css">
+</head>
+<body>
+  <div class="container">
+
+
+    <!-- Forms for different tabs -->
+    <div id="room" class="tabcontent">
+      <h1>Room</h1>
+      <form id="roomForm">
+        <input type="number" id="roomno" placeholder="Room No." required>
+        <input type="text" id="roomtype" placeholder="Room Type" required>
+        <label>
+          <h5>Availbility</h5>
+
+          <input type="checkbox" id="available" value="yes" >
+          YES
+        </label>
+        <label>
+          <input type="checkbox" id="unavailable" value="no">
+          NO
+        </label>
+
+
+        <button type="submit">Add Room</button>
+      </form>
+    </div>
+
+    <!-- Add other tab content divs here -->
+
+  </div>
+
+  <script src="hms.js"></script>
+</body>
+</html>

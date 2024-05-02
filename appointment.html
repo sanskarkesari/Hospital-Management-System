@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HMS</title>
+  <link rel="stylesheet" href="hms.css">
+</head>
+<body>
+  <div class="container">
+    
+ 
+    <!-- Forms for different tabs -->
+    <div id="appointment" class="tabcontent">
+      <h1>Appointment Form</h1>
+      <form id="appointmentForm">
+        <input type="number" id="appointmentID" placeholder="Appointment ID" required>
+        <input type="number" id="patientID" placeholder="Patient ID" required>
+        <input type="number" id="physicianID" placeholder="Physician ID" required>
+        <input type="text" id="examinationroom" placeholder="Examination Room No" required>
+        <input type="date" id="appointmentdate" placeholder="Appointment Date" required>
+
+        <button type="submit">Add Appointment</button>
+      </form>
+    </div>
+
+    <!-- Add other tab content divs here -->
+
+  </div>
+
+  <script src="hms.js"></script>
+</body>
+</html>
